@@ -6,7 +6,7 @@ const getPokemon = async (id) => {
         .get(apiUrl)
         .then(
             function (response) {
-                return response.data
+                result = response.data
             }
         );
 
